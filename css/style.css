@@ -43,6 +43,8 @@ header {
     width: auto;
 }
 
+/* 2 different styles of box models */
+
 .logo {
     font-family: pristina;
     font-size: 30px;
@@ -59,6 +61,7 @@ ul {
     padding: 0;
 }
 
+/* Flexbox element */
 .navigation {
     display: flex;
     flex-direction: row;
@@ -78,6 +81,7 @@ ul {
     text-align: center;
 }
 
+/* Create a fluid layout for a Flexbox or Grid Element */
 .frieren-Animation {
     filter: brightness(80%);
     width: 100%;
